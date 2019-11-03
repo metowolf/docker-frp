@@ -3,7 +3,6 @@ FROM alpine as builder
 LABEL maintainer="metowolf <i@i-meto.com>"
 
 ARG FRP_VERSION=0.29.1
-ARG TIMEZONE='Asia/Shanghai'
 
 RUN apk update \
   && apk add --no-cache \
