@@ -26,4 +26,4 @@ RUN apk add --no-cache tzdata \
   && ln -s /usr/local/frp/frps /usr/bin/frps \
   && install -m644 /usr/local/frp/*.ini /etc
 
-CMD ["frps", "-c", "/etc/frp/frps.ini"]
+CMD ["frps", "-c", "/etc/frps.ini"]
